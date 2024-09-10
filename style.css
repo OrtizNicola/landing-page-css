@@ -32,6 +32,7 @@ body {
     display: flex;
     padding: 96px 32px;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 .hero-block {
@@ -109,3 +110,25 @@ button {
     text-align: center;
 }
 
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 96px 32px;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+    align-self: center;
+}
+
+.quote-author {
+    font-weight: 700;
+    align-self: flex-end;
+    font-size: 24px;
+    text-align: end;
+}
