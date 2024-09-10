@@ -69,3 +69,43 @@ button {
     margin: 8px 0px;
     padding: 8px 24px;
 }
+
+.info-container {
+    padding: 48px 32px 48px;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.info-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: center;
+    margin: 32px 32px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    align-items: center;
+    gap: 12px;
+}
+
+.info-img {
+    height: 200px;
+    width: 200px;
+    border: solid #3882F6 5px;
+    border-radius: 15px;
+}
+
+.info-text {
+    font-size: 18px;
+    text-align: center;
+}
+
