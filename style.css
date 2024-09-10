@@ -9,7 +9,7 @@ body {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    padding: 0 16px;
+    padding: 0 32px;
 }
 
 .logo {
@@ -25,4 +25,47 @@ body {
     color: #E5E7EB;
     display: flex;
     gap: 16px;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    display: flex;
+    padding: 96px 32px;
+    gap: 32px;
+}
+
+.hero-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-image {
+    flex: 1;
+    background-color: #6D747D;
+    color: #DDDFE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    align-self: baseline;
+    margin: 8px 0px;
+    padding: 8px 24px;
 }
